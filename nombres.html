@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado - Nombres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor2">
+        <header>
+            <h1 id="titulo2">Juego del Ahorcado</h1>
+        </header>
+        <main>
+            <div id="word-container"></div>
+            <div class="input-canvas-container">
+                <input type="text" id="guess" maxlength="1">
+                <canvas id="hangman-canvas" width="200" height="200"></canvas>
+            </div>
+            <div id="wrong-letters-container">
+                <h3 id="letrasIncorrectas">Letras Incorrectas:</h3>
+                <div id="wrong-letters"></div>
+            </div>
+        </main>
+        <button id="restart-button" onclick="startGame()">Reiniciar</button>
+        <button onclick="location.href='seleccion.html'">Salir</button>
+    </div>
+    <audio id="background-music" src="MUSICA/Tapion Dragon Ball.mp3" loop></audio>
+    <script src="nombres.js"></script>
+</body>
+</html>
