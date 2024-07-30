@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;}
 
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
 .titulo {
     font-family: "Honk", system-ui;
     font-optical-sizing: auto;
@@ -133,4 +138,88 @@ canvas {
     gap: 20px;
 }
 
-
+@media only screen and (max-width: 768px) {
+    .titulo {
+      font-size: 6em;
+    }
+    .container1 {
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    #word-container {
+      font-size: 18px;
+    }
+    #guess {
+      font-size: 18px;
+    }
+    #wrong-letters {
+      font-size: 16px;
+    }
+    #letrasIncorrectas {
+      font-size: 18px;
+    }
+    .input-canvas-container {
+      gap: 10px;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .titulo {
+      font-size: 8em;
+    }
+    .container1 {
+      width: 90%;
+    }
+    header {
+      font-size: 2.5em;
+    }
+    #word-container {
+      font-size: 20px;
+    }
+    #guess {
+      font-size: 20px;
+    }
+    #wrong-letters {
+      font-size: 18px;
+    }
+    #letrasIncorrectas {
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 1.8em;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .titulo {
+      font-size: 10em;
+    }
+    .container1 {
+      width: 80%;
+    }
+    header {
+      font-size: 3em;
+    }
+    #word-container {
+      font-size: 24px;
+    }
+    #guess {
+      font-size: 24px;
+    }
+    #wrong-letters {
+      font-size: 22px;
+    }
+    #letrasIncorrectas {
+      font-size: 25px;
+    }
+    h1 {
+      font-size: 2.2em;
+    }
+  }
